@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Contact = () => {
     return (
       <section className="py-16 px-4 max-w-4xl mx-auto text-white">

@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Home = () => {
     return (
       <section className="flex flex-col items-center justify-center text-center py-20 px-4">
