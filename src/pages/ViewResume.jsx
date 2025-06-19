@@ -2,7 +2,7 @@ import React from 'react';
 
 const ViewResume = () => {
     return (
-      <section className="min-h-screen bg-gray-950 text-white flex flex-col items-center justify-center p-4">
+      <section id="ViewResume" className="min-h-screen bg-gray-950 text-white flex flex-col items-center justify-center p-4">
         <h1 className="text-3xl font-bold mb-6">My Resume</h1>
   
         <div className="w-full max-w-5xl h-[90vh] rounded-xl overflow-hidden border border-gray-700 shadow-lg">

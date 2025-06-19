@@ -1,3 +1,5 @@
+import React from "react";
+
 const ProjectCard = ({ project }) => {
     return (
       <div className="bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition">

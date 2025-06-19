@@ -5,6 +5,7 @@ import Contact from "./pages/Contact";
 import ViewResume from "./pages/ViewResume";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import React from "react";
 
 const App = () => {
   return (
@@ -14,9 +15,6 @@ const App = () => {
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/resume" element={<ViewResume />} />
           </Routes>
         </main>
         <Footer />
