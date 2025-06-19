@@ -34,7 +34,7 @@ const Projects = () => {
                 repeat: Infinity,
               }}
             >
-              {[...projects, ...projects].map((project, index) => (
+              {[...projects].map((project, index) => (
                 <motion.div
                   key={index}
                   className="min-w-[300px] max-w-sm bg-white/5 p-6 rounded-xl border border-white/10 hover:bg-white/10 transition flex-shrink-0"

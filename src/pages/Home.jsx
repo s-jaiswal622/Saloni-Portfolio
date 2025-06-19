@@ -179,9 +179,9 @@ const Home = () => {
           <FaChevronDown className="w-6 h-6 text-gray-400" />
         </motion.div>
       </section>
-      <Skills />
       <Projects />
       <Experience />
+      <Skills />
       <Education />
       <Contact />
     </div>

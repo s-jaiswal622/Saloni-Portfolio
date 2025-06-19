@@ -77,7 +77,7 @@ export const personalProjects = [
       bulletPoints: [
         "Developed a micro‑frontend employee invoice system using React, TypeScript, Redux, and React Query, reducing user touchpoints by 40% and significantly improving the invoicing workflow.",
         "Automated end‑to‑end testing with Playwright, cutting manual QA time from 7 days to just 2 days (70%) and increasing release speed and reliability.",
-        "Designed and integrated a cross‑service RabbitMQ messaging system to streamline onboarding status tracking—boosting efficiency by 50% while enhancing service decoupling and inter‑team communication."
+        "Integrated a cross‑service RabbitMQ messaging system to streamline onboarding status tracking—boosting efficiency by 50% while enhancing service decoupling and inter‑team communication."
       ]
     },
     {
