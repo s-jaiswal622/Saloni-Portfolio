@@ -70,13 +70,8 @@ const Home = () => {
         className="min-h-screen flex items-center relative px-4 w-full"
         id="home"
       >
-        <div className="flex flex-col lg:flex-row justify-between items-center space-y-12 lg:space-y-0 lg:space-x-16 w-full max-w-7xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0, x: -80 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
-            className="rounded-full overflow-hidden shadow-xl border-4 border-purple-500 w-72 h-72 md:w-96 md:h-96"
-          >
+        <div className="flex flex-col lg:flex-row justify-between items-center space-y-12 lg:space-y-0 lg:space-x-16 w-full max-w-full mx-auto">
+          <motion.div className="w-96 h-96 lg:w-[600px] lg:h-[600px] rounded-full overflow-hidden shadow-xl flex-shrink-0 ml-20">
             <img
               src={saloniImg}
               alt="Saloni Jaiswal"
