@@ -1,4 +1,15 @@
 import { FaEnvelope, FaLinkedin, FaGithub, FaCode } from "react-icons/fa";
+import {
+  SiReact,
+  SiTypescript,
+  SiJavascript,
+  SiRedux,
+  SiNextdotjs,
+  SiJest,
+  SiSpringboot,
+  SiSocketdotio,
+  SiTailwindcss,
+} from "react-icons/si";
 export const personalProjects = [
     {
       id: 1,
@@ -121,3 +132,16 @@ export const projects = [
     image: "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?w=800",
   },
 ];
+
+export const TECH_ICON_MAP = {
+  React: SiReact,
+  TypeScript: SiTypescript,
+  JavaScript: SiJavascript,
+  Redux: SiRedux,
+  Next: SiNextdotjs,
+  Jest: SiJest,
+  SpringBoot: SiSpringboot,
+  WebSocket: SiSocketdotio,
+  Tailwind: SiTailwindcss,
+};
+
