@@ -117,19 +117,14 @@ const Home = () => {
               </p>
             </div>
 
-            {/* Buttons */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.6 }}
               className="flex flex-wrap justify-center lg:justify-start gap-4"
             >
-              <button className="group bg-gradient-to-r from-purple-600 to-pink-600 px-8 py-3 rounded-full font-medium hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 hover:-translate-y-1">
-                View Projects
-                <FaArrowRight className="inline ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
-              </button>
               <a href="/Saloni_Jaiswal_Resume.pdf" download>
-                <button className="border border-gray-600 px-8 py-3 rounded-full font-medium hover:bg-white/10 transition-all duration-300 hover:-translate-y-1">
+                <button className="group bg-gradient-to-r from-purple-600 to-pink-600 px-8 py-3 rounded-full font-medium hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 hover:-translate-y-1">
                   <FaDownload className="inline mr-2 w-4 h-4" />
                   Download Resume
                 </button>
@@ -175,7 +170,6 @@ const Home = () => {
           </motion.div>
         </div>
 
-        {/* Down Arrow Animation */}
         <motion.div
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
