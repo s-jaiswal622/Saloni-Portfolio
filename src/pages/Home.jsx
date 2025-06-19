@@ -71,7 +71,6 @@ const Home = () => {
         id="home"
       >
         <div className="flex flex-col lg:flex-row justify-between items-center space-y-12 lg:space-y-0 lg:space-x-16 w-full max-w-7xl mx-auto">
-          {/* Image Animation */}
           <motion.div
             initial={{ opacity: 0, x: -80 }}
             animate={{ opacity: 1, x: 0 }}
@@ -85,7 +84,6 @@ const Home = () => {
             />
           </motion.div>
 
-          {/* Text Content Animation */}
           <motion.div
             initial={{ opacity: 0, x: 80 }}
             animate={{ opacity: 1, x: 0 }}
@@ -143,7 +141,6 @@ const Home = () => {
               </a>
             </motion.div>
 
-            {/* Social Icons */}
             <motion.div
               initial="hidden"
               animate="visible"
