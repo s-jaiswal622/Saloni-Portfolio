@@ -1,4 +1,4 @@
-import { FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaEnvelope, FaLinkedin, FaGithub, FaCode } from "react-icons/fa";
 export const projects = [
     {
       id: 1,
@@ -38,6 +38,12 @@ export const projects = [
       title: "GitHub",
       value: "github.com/saloni-jaiswal",
       href: "https://github.com/s-jaiswal622",
+    },
+    {
+      Icon: FaCode,
+      title: "LeetCode",
+      value: "leetcode.com/in/saloni-jaiswal",
+      href: "https://leetcode.com/u/salonijaiswal622/",
     },
   ];
 

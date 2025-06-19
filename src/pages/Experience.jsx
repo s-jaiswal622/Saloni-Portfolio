@@ -38,7 +38,7 @@ const Experience = () => {
                       initial={{ opacity: 0, y: 10 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.4, delay: idx * 0.1 }}
-                      className="bg-white/10 backdrop-blur-md border text-sm px-4 py-3 rounded-xl shadow-md hover:shadow-purple-500/20 transition-all duration-300 font-medium text-transparent bg-clip-text bg-gradient-to-r from-purple-300 via-pink-300 to-purple-300 hover:from-pink-400 hover:to-purple-400"
+                      className="bg-white/20 backdrop-blur-md border border-white/30 text-sm text-white/90 px-4 py-3 rounded-xl shadow-md hover:shadow-purple-500/30 transition-all duration-300 font-medium"
                     >
                       {point}
                     </motion.li>
