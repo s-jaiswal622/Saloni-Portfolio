@@ -47,7 +47,7 @@ export const projects = [
       company: 'National Institute of Technology',
       position: 'B.Tech Information Technology',
       duration: '2016 - 2020',
-      description: 'Graduated from NIT Kurukshetra with strong foundation in computer science and software engineering principles.'
+      description: 'Graduated from NIT Kurukshetra with strong foundation in Information Technology.'
     },
   ];
   
@@ -57,21 +57,23 @@ export const projects = [
       company: "Papaya Global",
       position: "Software Developer",
       duration: "Mar 2024 – May 2025",
-      description:
-        "Built microfrontend-based invoice system. Used React, Redux, Playwright for automation and RabbitMQ for messaging.",
+      bulletPoints: [
+        "Developed a micro‑frontend employee invoice system using React, TypeScript, Redux, and React Query, reducing user touchpoints by 40% and significantly improving the invoicing workflow.",
+        "Automated end‑to‑end testing with Playwright, cutting manual QA time from 7 days to just 2 days (–70%) and increasing release speed and reliability.",
+        "Designed and integrated a cross‑service RabbitMQ messaging system to streamline onboarding status tracking—boosting efficiency by 50% while enhancing service decoupling and inter‑team communication."
+      ]
     },
     {
       company: "LetsTransport",
       position: "UI Engineer",
       duration: "Sep 2020 – Dec 2023",
-      description:
-        "Led dashboard & React Native app migration. Reduced booking clicks and improved real-time visibility.",
-    },
-    {
-      company: 'National Institute of Technology',
-      position: 'B.Tech Information Technology',
-      duration: '2016 - 2020',
-      description: 'Graduated from NIT Kurukshetra with strong foundation in Information Technology.'
-    },
+      bulletPoints: [
+        "Spearheaded development of an internal dashboard using React JS and Redux Toolkit to provide real‑time business metrics—reducing decision turnaround time by over 50%.",
+        "Optimized field‑operations booking UI using React, Redux, and WebSocket—cut user clicks by 50% and improved live update responsiveness.",
+        "Seamlessly migrated the truck driver core app to React Native Paper, TypeScript, and Mobily Stack—ensured zero downtime and implemented consistent themed components.",
+        "Architected a streamlined vehicle registration process, increasing vehicle utilization from 45% to 85% and improving fleet management.",
+        "Engineered a robust vehicle ownership transfer system—reduced on‑call efforts by 85% and cut processing time from 2 days to under 30 minutes."
+      ]
+    }
   ];
   
