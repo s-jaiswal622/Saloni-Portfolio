@@ -33,7 +33,7 @@ const Projects = () => {
       id="projects"
       className="py-20 px-4 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white"
     >
-      <div className="max-w-7xl mx-auto overflow-hidden">
+      <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl font-bold mb-12 text-center">
           <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
             Projects
@@ -41,20 +41,23 @@ const Projects = () => {
         </h2>
 
         <motion.div
-          className="flex gap-6 w-max"
+          className="flex gap-6 overflow-x-auto no-scrollbar cursor-grab active:cursor-grabbing"
+          drag="x"
+          dragConstraints={{ left: -1000, right: 0 }}
           onHoverStart={() => setPaused(true)}
           onHoverEnd={() => setPaused(false)}
-          animate={{ x: paused ? 0 : ["0%", "-100%"] }}
+          animate={paused ? { x: 0 } : { x: ["0%", "-50%"] }}
           transition={{
             ease: "linear",
-            duration: 30,
-            repeat: paused ? 0 : Infinity,
+            duration: 20,
+            repeat: Infinity,
           }}
         >
           {[...projects, ...projects].map((project, index) => (
-            <div
+            <motion.div
               key={index}
-              className="min-w-[300px] max-w-sm bg-white/5 p-6 rounded-xl border border-white/10 hover:bg-white/10 transition flex-shrink-0"
+              className="min-w-[300px] max-w-sm flex-shrink-0 bg-white/5 p-6 rounded-xl border border-white/10 hover:bg-white/10 transition scroll-snap-start"
+              whileHover={{ scale: 1.03 }}
             >
               <img
                 src={project.image}
@@ -74,7 +77,7 @@ const Projects = () => {
                   </div>
                 ))}
               </div>
-            </div>
+            </motion.div>
           ))}
         </motion.div>
       </div>
