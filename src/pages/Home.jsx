@@ -71,7 +71,7 @@ const Home = () => {
         id="home"
       >
         <div className="flex flex-col lg:flex-row justify-between items-center space-y-12 lg:space-y-0 lg:space-x-16 w-full max-w-full mx-auto">
-          <motion.div className="w-96 h-96 lg:w-[600px] lg:h-[600px] rounded-full overflow-hidden shadow-xl flex-shrink-0 ml-20">
+          <motion.div className="w-96 h-96 lg:w-[600px] lg:h-[600px] rounded-full overflow-hidden shadow-xl flex-shrink-0 lg:ml-20">
             <img
               src={saloniImg}
               alt="Saloni Jaiswal"

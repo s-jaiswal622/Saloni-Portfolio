@@ -1,5 +1,5 @@
 import { FaEnvelope, FaLinkedin, FaGithub, FaCode } from "react-icons/fa";
-export const projects = [
+export const personalProjects = [
     {
       id: 1,
       title: "NetflixGPT",
@@ -83,3 +83,41 @@ export const projects = [
     }
   ];
   
+
+export const projects = [
+  {
+    title: "Employee Invoice Management System",
+    description:
+      "Built with React, TypeScript, Redux, and Microfrontend Architecture. Reduced user touchpoints by 40% and automated tests with Playwright.",
+    tech: ["React", "TypeScript", "Redux"],
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800",
+  },
+  {
+    title: "Real-time Business Dashboard",
+    description:
+      "Developed with React and Redux Toolkit to visualize live metrics. Reduced decision-making time by 50%.",
+    tech: ["React", "Redux", "WebSocket"],
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800",
+  },
+  {
+    title: "Field Operations PWA",
+    description:
+      "Optimized booking UI and reduced user clicks by 50% using PWA patterns.",
+    tech: ["React", "Redux", "WebSocket"],
+    image: "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=800",
+  },
+  {
+    title: "Vehicle Ownership Transfer System",
+    description:
+      "Reduced transfer time from 2 days to 30 mins with a custom dashboard. Eliminated 85% manual work.",
+    tech: ["React", "Redux"],
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800",
+  },
+  {
+    title: "Eagle Dashboard",
+    description:
+      "Built a business performance dashboard using React and Redux Toolkit.",
+    tech: ["React", "Redux"],
+    image: "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?w=800",
+  },
+];

@@ -14,7 +14,7 @@ const Contact = () => {
         </h2>
 
         <p className="text-lg text-gray-400 mb-16 max-w-2xl mx-auto">
-          Open to senior frontend developer opportunities and exciting collaborations.
+          Open to senior frontend developer opportunities.
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mb-16">
