@@ -7,18 +7,56 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Build output
+dist/
+dist-ssr/
+build/
+
+# Vite cache
+.vite/
+.cache/
+
+# Firebase
+.firebase/
+firebase-debug.log
+.firebaserc
+
+# Dependencies
+node_modules/
+
+# Local environment variables
+.env
+.env.*    # Optional if you use env files like .env.development
+
+# Editor & IDE
+.vscode/
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Optional OS/Platform-specific
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Test Coverage
+coverage/
+
+# React-specific
+*.module.css.d.ts
+
+# Image/Private asset folders (if needed)
+private-assets/
+
+# GitHub Pages or documentation build output
+docs/
