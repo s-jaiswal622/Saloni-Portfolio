@@ -96,7 +96,7 @@ const Home = () => {
                 sequence={[
                   "Frontend Engineer – React & TypeScript Specialist",
                   2000,
-                  "Microfrontend Architect",
+                  "Building Modern Web Experiences",
                   2000,
                   "UI Engineer | Scalable Web Interfaces",
                   2000,
