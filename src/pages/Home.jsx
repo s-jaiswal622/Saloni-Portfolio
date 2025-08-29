@@ -118,20 +118,6 @@ const Home = () => {
             </div>
 
             <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.6 }}
-              className="flex flex-wrap justify-center lg:justify-start gap-4"
-            >
-              <a href="/Saloni_Jaiswal_Resume.pdf" download>
-                <button className="group bg-gradient-to-r from-purple-600 to-pink-600 px-8 py-3 rounded-full font-medium hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 hover:-translate-y-1">
-                  <FaDownload className="inline mr-2 w-4 h-4" />
-                  Download Resume
-                </button>
-              </a>
-            </motion.div>
-
-            <motion.div
               initial="hidden"
               animate="visible"
               variants={{

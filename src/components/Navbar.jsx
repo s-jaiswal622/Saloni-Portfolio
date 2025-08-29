@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Navbar = () => {
-  const menuItems = ["Home", "Skills", "Projects", "Experience", "Education", "Contact"];
+  const menuItems = ["Home", "Projects", "Experience", "Skills", "Education", "Contact"];
   const [activeSection, setActiveSection] = useState("Home");
 
   const handleNavClick = (item) => {
